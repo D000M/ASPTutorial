@@ -1,0 +1,163 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/Content/styles/assets/stylesheet/main.css">  <!--reset all css to default -->
+    <link rel="stylesheet" href="~/Content/styles/assets/stylesheet/user.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira:100,300,400,600" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIBIT Learning</title>
+</head>
+<body>
+    <header class="primary-header container group">
+        <h1 class="logo">
+            <a href="/Home/Index">UNIBIT<br>Learning</a>
+        </h1>
+        <h3 class="tagline">2017&dash;2021; Sofia, BG</h3>
+        <nav class="nav primary-nav">
+            <ul>
+                <li><a href="/Home/Index">Home</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Kurs1">First</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Kurs2">Second</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Kurs3">Third</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Kurs4">Fourth</a></li>
+                <!--
+                -->
+                <li><a href="/User/Registration">Register</a></li>
+                <!--
+                -->
+                <li><a href="/User/Login">Login</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Unibit">UNIBIT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero container">
+        <h2>For all students which wants to learn in UNIBIT</h2>
+        <p>Every year hundreds of students begin their learning in UNIBIT. This Site is going to help them.</p>
+        <a class="btn btn-alt" href="/User/Registration">Register Now</a>
+        <a class="btn btn-alt" href="/User/Login">Login Now</a>
+    </section>
+    <section class="row">
+        <div class="grid">
+            <!-- 
+                KURS 1 
+            -->
+            <section class="teaser col-1-5">
+                <h5>First Course</h5>
+                <a href="/Home/Kurs1">
+                    <img src="~/Content/styles/assets/images/home/kurs1.jpg" alt="First Course Logo">
+                    <h3>Disciplines</h3>
+                </a>
+                <!--  	<p>Courses First Semester: Basic Programming, Basic Web Programming, Computers Architecture, Design and Analysis of Algorithms,
+                          Discrete Mathematics, Linear Algebra and Analytic Geometry</p> -->
+                <ul>
+                    <h4>First Semester</h4>
+                    <a href="/Home/Kurs1Schedule">
+                        <h3>Schedule</h3>
+                    </a>
+                    <li class="disciplines-list">Basic Programming</li>
+                    <li class="disciplines-list">Basic Web Programming</li>
+                    <li class="disciplines-list">Computers Architecture</li>
+                    <li class="disciplines-list">Design and Analysis of Algorithms</li>
+                    <li class="disciplines-list">Discrete Mathematics</li>
+                    <li class="disciplines-list">Linear Algebra and Analytic Geometry</li>
+                </ul>
+            </section>
+            <!--
+                    KURS 2
+            -->
+            <section class="teaser col-1-5">
+                <h5>Second Course</h5>
+                <a href="/Home/Kurs2">
+                    <img src="~/Content/styles/assets/images/home/kurs2.jpg" alt="Second Course Logo">
+                    <h3>Disciplines</h3>
+                </a>
+                <p>Materials For Kurs 2</p>
+            </section>
+            <!--
+                    KURS 3
+            -->
+            <section class="teaser col-1-5">
+                <h5>Third Course</h5>
+                <a href="/Home/Kurs3">
+                    <img src="~/Content/styles/assets/images/home/kurs3.jpeg" alt="Third Course Logo">
+                    <h3>Disciplines</h3>
+                </a>
+                <p>Materials For Kurs 3</p>
+            </section>
+            <!--
+             KURS 4
+            -->
+            <section class="teaser col-1-5">
+                <h5>Fourth Course</h5>
+                <a href="/Home/Kurs4">
+                    <img src="~/Content/styles/assets/images/home/kurs4.jpeg" alt="Fourth Course Logo">
+                    <h3>Disciplines</h3>
+                </a>
+                <p>Materials For Kurs 4</p>
+            </section>
+            <!--
+                    UNIBIT OFFICIAL PAGE
+            -->
+            <section class="teaser col-1-5">
+                <h5>UNIBIT</h5>
+                <a href="/Home/Unibit">
+                    <img src="~/Content/styles/assets/images/home/unibit.jpeg" alt="UNIBIT Logo">
+                    <h3>The University</h3>
+                </a>
+                <p>The official web page of the UNIBIT University</p>
+        </div>
+    </section>
+    </section>
+    <footer class="primary-footer container group">
+        <small>&copy; Georgi Slavov</small>
+        <nav class="nav">
+            <ul>
+                <li><a href=""/Home/Index">Home</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Kurs1">First</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Kurs2">Second</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Kurs3">Third</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Kurs4">Fourth</a></li>
+                <!--
+                -->
+                <li><a href="/User/Registration">Register</a></li>
+                <!--
+                -->
+                <li><a href="/User/Login">Login</a></li>
+                <!--
+                -->
+                <li><a href="/Home/Unibit">UNIBIT</a> </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="~/Content/javascript/clock.js">
+    </script>
+</body>
+</html>
+
